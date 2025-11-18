@@ -13,7 +13,7 @@ driver = webdriver.Chrome()
 
 # Go to webpage
 driver.get("https://example.com")
-time.sleep(2)
+time.sleep(3)
 
 # Expected text
 expected_heading = "Example Domain"
@@ -36,6 +36,7 @@ else:
     print("TEST RESULT: FAIL (Text mismatch)")
 
 driver.quit()
+
 
 
 
